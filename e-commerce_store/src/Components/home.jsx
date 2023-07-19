@@ -1,9 +1,10 @@
 import React from 'react'
-import {Switch} from 'react-router-dom'
+import Navbar from './navbar'
 
 export default function Home() {
   return (
     <div>
+      <Navbar />
       <h1>World</h1>
     </div>
   )
