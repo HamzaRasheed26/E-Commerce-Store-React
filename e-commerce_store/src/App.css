@@ -9,8 +9,9 @@ nav{
 }
 
 .navtitle img{
-  width: 80px;
-  height: 80px;
+  align-self: center;
+  width: 50px;
+  height: 50px;
 }
 
 .navlist ul{
@@ -42,4 +43,34 @@ nav{
 .navbtn button:hover{
   background-color: white;
   color: #100f3d;
+}
+
+/* footer */
+
+footer{
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.footerBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerInfo{
+  margin: 20px;
+  width: 70%;
+  text-align: center;
+}
+
+.footerLinks{
+  margin: 20px;
+  width: 30%;
+  text-align: center;
+}
+
+.footerLinks ul{
+  list-style: none;
 }
