@@ -19,10 +19,14 @@ export default function ProductCards() {
 
   const cardLineStyle = {
     display: "flex",
+    flexWrap: "wrap",
+    justifyContent: "center",
   };
 
   const cardStyle = {
-    border: "1px solid black",
+    flexBasis: "calc(25% - 40px)",
+    border: "1px solid #D2D2D2",
+    borderRadius: "5px",
     padding: "20px",
     margin: "20px",
     fontFamily: "bahnschrift",
@@ -38,6 +42,7 @@ export default function ProductCards() {
     color: "#100f3d",
     fontWeight: "bold",
     textAlign: "center",
+    marginTop: "10px",
   };
 
   const starStyle = {
@@ -59,15 +64,15 @@ export default function ProductCards() {
 
   return (
     <div>
-      {products.map((product) => (
-        <div className="cardLine" style={cardLineStyle}>
+      <div className="cardLine" style={cardLineStyle}>
+        {products.map((product) => (
           <div key={product.id} className="cardBox" style={cardStyle}>
             <center>
               <img style={imgStyle} src={product.image} alt={product.title} />
             </center>
-            <h2 style={headingStyle}>{product.title}</h2>
+            <h5 style={headingStyle}>{product.title}</h5>
             <div style={starStyle}>⭐⭐⭐⭐⭐</div>
-            <h2 style={priceStyle}>{product.price} Rs</h2>
+            <h5 style={priceStyle}>{product.price} Rs</h5>
             <p style={{ textAlign: "justify" }}>{product.description}</p>
             <center>
               <button className="btn btn-outline-light" style={btnStyle}>
@@ -75,8 +80,8 @@ export default function ProductCards() {
               </button>
             </center>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 }

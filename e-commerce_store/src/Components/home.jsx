@@ -3,6 +3,8 @@ import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
 import Navbar from "./navbar";
 import Footer from "./footer";
 import ProductCards from "./productCards";
+import "mdb-react-ui-kit/dist/css/mdb.min.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export default function Home() {
   return (
