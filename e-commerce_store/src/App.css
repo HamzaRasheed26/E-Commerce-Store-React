@@ -169,3 +169,24 @@ footer{
   border-radius: 5px;
   padding: 10px;
 }
+
+/* signup signin */
+.res-inputs{
+  text-align: left;
+  color: #100f3d;
+  display: flex;
+  flex-direction: column
+}
+
+.res-inputs label{
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.res-inputs input{
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid #DEE2E6;
+  border-radius: 10px;
+  padding: 10px;
+}
