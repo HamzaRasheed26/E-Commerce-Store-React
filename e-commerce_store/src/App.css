@@ -79,8 +79,7 @@ footer{
 
 .contactCard{
   width: 80%;
-  border: 2px ; 
-  border-color: #100f3d;
+  border: 1px solid #D2D2D2;
   border-radius: 10px;
   margin: 20px 10%;
   font-family: bahnschrift;
@@ -89,6 +88,8 @@ footer{
 .contactCard-header{
   background-color: #F8F8F8;
   padding: 10px 20px;
+  border: 1px solid #D2D2D2;
+  margin: -1px;
   border-radius: 8px 8px 0px 0px;
   color: #F57224;
   font-weight: bold;
@@ -101,15 +102,70 @@ footer{
 .contactCard-Body input{
   margin-bottom: 10px;
   width: 100%;
+  border: 1px solid #DEE2E6;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .contactCard-Body button{
   color: white;
   background-color: #f57224;
   margin-top: 20px;
-
+  font-size: 16px;
+  padding: 5px 10px;
 }
 
 .contactCard-Body textarea{
   width: 100%;
+  border: 1px solid #DEE2E6;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* cart */
+
+.cart{
+  width: 80%;
+  margin: 100px 10%;
+}
+
+.cart-product{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #DEE2E6;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.cart-values{
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.orderPrice{
+  margin-top: 30px;
+  border: 1px solid #DEE2E6;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: right;
+}
+
+.cart-btn{
+  margin-top: 40px;
+  text-align: right;
+}
+
+.btn1{
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.btn2{
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 10px;
 }

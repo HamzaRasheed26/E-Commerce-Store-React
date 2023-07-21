@@ -18,7 +18,14 @@ export default function ContactUs() {
             <input type="email" placeholder="Enter your email" required />{" "}
             <br />
             <label htmlFor="">Message</label> <br />
-            <textarea name="" id="" cols="30" rows="5"></textarea> <br />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="5"
+              placeholder="Enter your message"
+            ></textarea>{" "}
+            <br />
             <button type="submit" class="btn">
               Submit
             </button>
