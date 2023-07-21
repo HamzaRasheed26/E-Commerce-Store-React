@@ -1,5 +1,5 @@
 import React from "react";
-//import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
+import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
 import Navbar from "./navbar";
 import Footer from "./footer";
 import ProductCards from "./productCards";
@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <Navbar />
 
-      {/* <MDBCarousel showControls>
+      <MDBCarousel showControls>
         <MDBCarouselItem
           className="w-100 d-block"
           itemId={1}
@@ -30,7 +30,7 @@ export default function Home() {
           src="/images/image3.png"
           alt="..."
         />
-      </MDBCarousel> */}
+      </MDBCarousel>
 
       <h2
         style={{
