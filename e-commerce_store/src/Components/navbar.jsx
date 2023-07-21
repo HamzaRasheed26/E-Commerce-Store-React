@@ -23,10 +23,10 @@ export default function Navbar() {
             <Link to="/Products">Products</Link>
           </li>
           <li>
-            <Link>Cart</Link>
+            <Link to="/Cart">Cart</Link>
           </li>
           <li>
-            <Link>Contact Us</Link>
+            <Link to="/ContactUs">Contact Us</Link>
           </li>
         </ul>
       </div>

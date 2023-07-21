@@ -75,7 +75,7 @@ export default function ProductCards() {
             <h5 style={priceStyle}>{product.price} Rs</h5>
             <p style={{ textAlign: "justify" }}>{product.description}</p>
             <center>
-              <button className="btn btn-outline-light" style={btnStyle}>
+              <button className="btn" style={btnStyle}>
                 Buy Now
               </button>
             </center>

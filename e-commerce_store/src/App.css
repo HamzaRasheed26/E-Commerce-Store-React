@@ -74,3 +74,42 @@ footer{
 .footerLinks ul{
   list-style: none;
 }
+
+/* contact us */
+
+.contactCard{
+  width: 80%;
+  border: 2px ; 
+  border-color: #100f3d;
+  border-radius: 10px;
+  margin: 20px 10%;
+  font-family: bahnschrift;
+}
+
+.contactCard-header{
+  background-color: #F8F8F8;
+  padding: 10px 20px;
+  border-radius: 8px 8px 0px 0px;
+  color: #F57224;
+  font-weight: bold;
+}
+
+.contactCard-Body{
+  padding: 20px;
+}
+
+.contactCard-Body input{
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.contactCard-Body button{
+  color: white;
+  background-color: #f57224;
+  margin-top: 20px;
+
+}
+
+.contactCard-Body textarea{
+  width: 100%;
+}

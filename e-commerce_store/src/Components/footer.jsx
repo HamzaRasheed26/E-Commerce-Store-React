@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 export default function Footer() {
   return (
@@ -30,8 +31,8 @@ export default function Footer() {
 
             <ul>
               <li>
-                <a
-                  href="index.html"
+                <Link
+                  to="/"
                   style={{
                     color: "white",
                     textDecoration: "none",
@@ -39,11 +40,11 @@ export default function Footer() {
                   }}
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="index.html"
+                <Link
+                  to="/Products"
                   style={{
                     color: "white",
                     textDecoration: "none",
@@ -51,11 +52,11 @@ export default function Footer() {
                   }}
                 >
                   Products
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="index.html"
+                <Link
+                  to="/Cart"
                   style={{
                     color: "white",
                     textDecoration: "none",
@@ -63,11 +64,11 @@ export default function Footer() {
                   }}
                 >
                   Cart
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="index.html"
+                <Link
+                  to="/ContactUs"
                   style={{
                     color: "white",
                     textDecoration: "none",
@@ -75,7 +76,7 @@ export default function Footer() {
                   }}
                 >
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
