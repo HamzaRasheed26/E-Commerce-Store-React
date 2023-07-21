@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./navbar";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
-export default function Signup() {
+export default function Login() {
   return (
     <div>
       <Navbar></Navbar>
@@ -23,7 +23,7 @@ export default function Signup() {
               fontWeight: "bold",
             }}
           >
-            Register
+            Login
           </h2>
           <p
             style={{
@@ -31,7 +31,7 @@ export default function Signup() {
               fontFamily: "bahnschrift",
             }}
           >
-            Register Yourself!
+            Welcome Back! Login to Your Account
           </p>
 
           <div className="res-inputs">
@@ -50,15 +50,15 @@ export default function Signup() {
           </div>
 
           <p style={{ margin: "10px", fontSize: "small", color: "#100f3d" }}>
-            Have an Account?
+            Don't Have an Account?
             <Link
-              to="/Login"
+              to="/SignUp"
               style={{
                 color: "#100f3d",
                 textDecoration: "none",
               }}
             >
-              Login
+              Sign up
             </Link>
           </p>
 
@@ -75,7 +75,7 @@ export default function Signup() {
             }}
             type="submit"
           >
-            Register
+            Login
           </button>
         </div>
       </center>

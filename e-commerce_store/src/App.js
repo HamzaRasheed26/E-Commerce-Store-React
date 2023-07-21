@@ -5,6 +5,7 @@ import Products from "./Components/products";
 import ContactUs from "./Components/contactUs";
 import Cart from "./Components/cart";
 import Signup from "./Components/signup";
+import Login from "./Components/login";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/ContactUs" component={ContactUs} />
         <Route exact path="/Cart" component={Cart} />
         <Route exact path="/SignUp" component={Signup} />
+        <Route exact path="/Login" component={Login} />
       </Switch>
     </div>
   );

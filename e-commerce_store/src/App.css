@@ -171,6 +171,14 @@ footer{
 }
 
 /* signup signin */
+
+.register-card{
+  padding: 50px;
+  border-radius: 1rem;
+  width: 450px;
+  border: 1px solid #D2D2D2;
+  margin-top: 50px;
+}
 .res-inputs{
   text-align: left;
   color: #100f3d;
